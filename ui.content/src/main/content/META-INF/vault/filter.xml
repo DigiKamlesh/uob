@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/uobsite" mode="merge"/>
+    <filter root="/content/uobsite" mode="merge"/>
+    <filter root="/content/dam/uobsite" mode="merge">
+        <exclude pattern="/content/dam/uobsite(/.*)?"/>
+        <include pattern="/content/dam/uobsite/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/uobsite/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/uobsite" mode="merge"/>
+</workspaceFilter>
